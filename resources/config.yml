@@ -1,0 +1,19 @@
+# itemId : meta : number
+not_end_cooldown: "Tu ne peux pas récupéré le kit"
+not_permissions: "tu n'as pas la permission"
+kits:
+  chevalier:
+    cooldown: "1d" #or 1h
+    permission: "chevalier.kit"
+    texture: "textures/items/apple.png" #false si tu n'utilise pas le plugin
+    commands:
+      - "give {player} 57"
+    items:
+      "2:0:1":
+        enchant:
+          - "2:2"
+        #write DEFAULT if you would don't like to set a custom Name
+        name: "§3YYYYYY"
+      "1:0:1":
+        enchant:
+        name: "§4Dark TE EIOJDIEIO"
